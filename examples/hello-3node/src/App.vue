@@ -2,7 +2,7 @@
 import { ref, watch } from 'vue';
 import { enableLogging } from '@naylence/runtime';
 import '@naylence/runtime';
-import { FabricProvider } from '../../../src/index';
+import { FabricProvider } from '@naylence/vue';
 import ClientNode from './ClientNode.vue';
 import SentinelNode from './SentinelNode.vue';
 import AgentNode from './AgentNode.vue';

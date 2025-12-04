@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { ref, watch } from 'vue';
-import { FabricProvider } from '../../../src/index';
+import { FabricProvider } from '@naylence/vue';
 import MathSentinel from './MathSentinel.vue';
 import MathClient from './MathClient.vue';
 import { clientConfig, sentinelConfig } from './config';

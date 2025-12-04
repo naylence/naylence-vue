@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { nextTick, onBeforeUnmount, ref, watch } from 'vue';
-import { useFabric, useFabricEffect } from '../../../src/index';
+import { useFabric, useFabricEffect } from '@naylence/vue';
 import { HelloAgent } from './HelloAgent';
 
 interface ReceivedMessage {

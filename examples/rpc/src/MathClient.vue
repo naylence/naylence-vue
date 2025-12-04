@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { computed, ref } from 'vue';
-import { useFabric, useRemoteAgent } from '../../../src/index';
+import { useFabric, useRemoteAgent } from '@naylence/vue';
 
 const { fabric, error } = useFabric();
 const x = ref(3);

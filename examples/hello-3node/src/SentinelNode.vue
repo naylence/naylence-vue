@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { useFabric, useFabricEffect } from '../../../src/index';
+import { useFabric, useFabricEffect } from '@naylence/vue';
 
 const emit = defineEmits<{ (e: 'ready'): void }>();
 const { fabric, error } = useFabric();

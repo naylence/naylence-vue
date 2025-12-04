@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { ref } from 'vue';
-import { useFabric, useFabricEffect } from '../../../src/index';
+import { useFabric, useFabricEffect } from '@naylence/vue';
 import { MathAgent } from './MathAgent';
 
 interface OperationLog {

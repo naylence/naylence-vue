@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { ref, watch } from 'vue';
 import { enableLogging } from '@naylence/runtime';
-import { FabricProvider } from '../../../src/index';
+import { FabricProvider } from '@naylence/vue';
 import ClientNode from './ClientNode.vue';
 import SentinelNode from './SentinelNode.vue';
 import { clientConfig, sentinelConfig } from './config-in-page-connector';

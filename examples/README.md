@@ -8,10 +8,14 @@ Vue ports of the @naylence/react demo apps. Each folder is an isolated Vite + Vu
 
 ## Running an example
 
+Use the Makefile targets from a project folder:
+
 ```bash
-cd examples/<example-name>
-npm install
-npm run dev
+cd examples/vue/<example-name>
+make run     # install deps and start dev server
+# make build   # production build
+# make preview # preview production build
+# make lint    # lint the project
+# make clean   # remove dist and node_modules
 ```
 
-> These projects reference the local `@naylence/vue` source via relative imports (`../../../src/index`). When publishing the package, swap to the npm package name if you prefer.
