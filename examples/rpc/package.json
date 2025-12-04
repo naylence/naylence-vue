@@ -10,13 +10,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@naylence/runtime": "file:../../node_modules/@naylence/runtime",
-    "@naylence/vue": "file:../../",
+    "@naylence/vue": "^0.1.0",
     "vue": "^3.4.0"
-  },
-  "overrides": {
-    "@naylence/core": "file:../../node_modules/@naylence/core",
-    "@naylence/agent-sdk": "file:../../node_modules/@naylence/agent-sdk"
   },
   "devDependencies": {
     "@babel/plugin-proposal-decorators": "^7.28.0",
