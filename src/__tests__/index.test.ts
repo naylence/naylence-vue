@@ -74,7 +74,8 @@ beforeEach(() => {
 });
 
 type FabricCtx = FabricContextValue;
-type RemoteAgentRef<T extends Agent = Agent> = ComputedRef<AgentProxy<T> | null>;
+type RemoteAgentRef<T extends Agent = Agent> =
+  ComputedRef<AgentProxy<T> | null>;
 
 function expectCtx(ctx: FabricCtx | undefined): asserts ctx is FabricCtx {
   expect(ctx).toBeDefined();
